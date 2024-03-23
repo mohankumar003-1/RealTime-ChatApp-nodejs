@@ -1,0 +1,28 @@
+{
+  "name": "mjchat",
+  "version": "1.0.0",
+  "description": "A real-time Chatting App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohankumar003-1/RealTime-ChatApp-nodejs.git"
+  },
+  "author": "Mohankumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohankumar003-1/RealTime-ChatApp-nodejs/issues"
+  },
+  "homepage": "https://github.com/mohankumar003-1/RealTime-ChatApp-nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "express": "^4.19.1",
+    "moment": "^2.30.1",
+    "socket.io": "^4.7.5"
+  }
+}
